@@ -29,9 +29,50 @@ Contacts.views.ContactFormPanel = Ext.extend(Ext.form.FormPanel, {
         ];
 
         // dockedItems will be defined here
+        this.dockedItems = [
+            {
+                xtype : 'toolbar',
+                dock  : 'bottom',
+                items : [
+                    {
+                        text   : 'Done',
+                        itemId : 'done',
+                        // Listeners on the button will go here
+                        listeners : {
+                            scope : this,
+                            tap : this.onDoneTap
+                        }
+                    },
+                    {
+                        text   : 'Cancel',
+                        itemId : 'cancel',
+                        // Listeners on the button will go here
+                        listeners : {
+                            scope : this,
+                            tap : this.onCancelTap
+                        }
+                    }
+                ]
+            }
+        ];
 
         // This is basically a call to super();
         Contacts.views.ContactFormPanel.superclass.initComponent.apply(this,arguments);
+    },
+
+    onDoneTap : function() {
+        Ext.dispatch({
+            controller : 'ContactController',
+            action : 'saveContact',
+            form : this
+        });
+    },
+
+    onCancelTap : function(btn, evt) {
+        Ext.dispatch({
+            controller : 'ContactController',
+            action    : 'returnToList'
+        });
     }
 });
 
