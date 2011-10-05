@@ -36,9 +36,9 @@ You can review the list of local branches by running:
 
     git branches
 
-And you can switch between branches with the checkout command. For example, to check out the `12_xtemplate_from_DOM` branch, run:
+And you can switch between branches with the checkout command. For example, to check out the `07_Editing_Form_Data` branch, run:
 
-    git co 12_xtemplate_from_DOM
+    git co 07_Editing_Form_data
 
 
 [00]: https://github.com/buffalobillion/contacts/tree/00_blank_slate
