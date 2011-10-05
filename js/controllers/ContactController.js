@@ -24,5 +24,10 @@ Ext.regController('ContactController', {
         Contacts.contactList.list.getSelectionModel().deselectAll();
         // Set the ContactListPanel as the active item in the card layout
         Contacts.viewport.setActiveItem(Contacts.contactList, {type:'slide', direction:'right'});
+    },
+
+    editContact : function(params) {
+        Contacts.contactForm.load(params.model);
+        Contacts.viewport.setActiveItem(Contacts.contactForm, {type:'slide', direction:'left'});
     }
 });

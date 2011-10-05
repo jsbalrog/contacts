@@ -16,8 +16,12 @@ Contacts.views.ContactListPanel = Ext.extend(Ext.Panel, {
         this.list = new Ext.List({
             itemTpl  : '{firstName} <strong>{lastName}</strong>', // This is our template for how each list item displays
             store    : this.store, // the list is bound to the store variable we have defined
-            indexBar : true
+            indexBar : true,
             // Listeners will go here
+            listeners: {
+                scope   : this,
+                itemtap : this.onContactListItemTap
+            }
         });
 
         this.dockedItems = [{
@@ -44,6 +48,14 @@ Contacts.views.ContactListPanel = Ext.extend(Ext.Panel, {
 
         // This is basically a call to super();
         Contacts.views.ContactListPanel.superclass.initComponent.apply(this,arguments);
+    },
+
+    onContactListItemTap : function(ctList, itemIdx) {
+        Ext.dispatch({
+            controller  : 'ContactController',
+            action      : 'editContact',
+            model       : ctList.store.getAt(itemIdx)
+        });
     },
 
     onAddTap : function() {
