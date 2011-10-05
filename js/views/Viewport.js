@@ -5,15 +5,15 @@ Contacts.views.Viewport = Ext.extend(Ext.Panel, {
 	initComponent : function() {
 		// Put instances of cards into namespace
 		Ext.apply(Contacts, {
-			contactList: new Contacts.views.ContactListPanel()
-//			contactForm: new Contacts.views.ContactFormPanel()
+			contactList: new Contacts.views.ContactListPanel(),
+			contactForm: new Contacts.views.ContactFormPanel()
 		});
 
 		// Put instances of cards (defined above) into viewport
 		Ext.apply(this, {
 			items: [
 				Contacts.contactList,
-//				Contacts.contactForm
+				Contacts.contactForm
 			]
 		});
 

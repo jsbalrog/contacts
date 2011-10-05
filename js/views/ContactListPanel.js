@@ -30,8 +30,12 @@ Contacts.views.ContactListPanel = Ext.extend(Ext.Panel, {
                     itemId  :'addButton',
                     iconCls :'add',
                     iconMask:true,
-                    ui      :'plain'
+                    ui      :'plain',
                     // Listeners on the button will go here
+                    listeners : {
+                        scope : this,
+                        tap : this.onAddTap
+                    }
                 }
             ]
         }];
@@ -40,7 +44,15 @@ Contacts.views.ContactListPanel = Ext.extend(Ext.Panel, {
 
         // This is basically a call to super();
         Contacts.views.ContactListPanel.superclass.initComponent.apply(this,arguments);
+    },
+
+    onAddTap : function() {
+        Ext.dispatch({
+            controller  : 'ContactController',
+            action      : 'addContact'
+        });
     }
+    
 });
 
 // So that lazy instantiation may be used in creating ContactListPanels

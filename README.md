@@ -7,6 +7,7 @@ Each of the links below represents a snapshot of the code at a point in the pres
 * [02_Adding_A_Panel][02]
 * [03_Adding_A_Toolbar_To_Panel][03]
 * [04_Adding_A_List_To_Panel][04]
+* [05_Adding_Form_Panel_And_Controller][05]
 
 ## Using this repository to follow the demo
 
@@ -25,6 +26,7 @@ By default, the git clone command will only create the master branch locally. If
     git checkout -b 02_Foundational_Steps origin/02_Adding_A_Panel
     git checkout -b 03_Adding_A_Toolbar_To_Panel/03_Adding_A_Toolbar_To_Panel
     git checkout -b 04_Adding_A_List_To_Panel/04_Adding_A_List_To_Panel
+    git checkout -b 05_Adding_Form_Panel_And_Controller/05_Adding_Form_Panel_And_Controller
 
 You can review the list of local branches by running:
 
@@ -40,3 +42,4 @@ And you can switch between branches with the checkout command. For example, to c
 [02]: https://github.com/buffalobillion/contacts/tree/02_Adding_A_Panel
 [03]: https://github.com/buffalobillion/contacts/tree/03_Adding_A_Toolbar_To_Panel
 [04]: https://github.com/buffalobillion/contacts/tree/04_Adding_A_List_To_Panel
+[05]: https://github.com/buffalobillion/contacts/tree/05_Adding_Form_Panel_And_Controller
