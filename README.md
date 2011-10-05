@@ -3,6 +3,7 @@ This Git repository includes all of the source code used in creating the contact
 Each of the links below represents a snapshot of the code at a point in the presentation. You'll find instructions below on how to check out each snapshot from this git repository.
 
 * [00_blank_slate][00]
+* [01_Foundational_Steps][01]
 
 ## Using this repository to follow the demo
 
@@ -17,6 +18,7 @@ Change into the directory:
 By default, the git clone command will only create the master branch locally. If you want to study the code at each checkpoint, you will have to fetch each of the other branches. You can do so by running the following:
 
     git checkout -b 00_blank_slate origin/00_blank_slate
+    git checkout -b 01_Foundational_Steps origin/01_Foundational_Steps
 
 You can review the list of local branches by running:
 
@@ -28,3 +30,4 @@ And you can switch between branches with the checkout command. For example, to c
 
 
 [00]: https://github.com/buffalobillion/contacts/tree/00_blank_slate
+[01]: https://github.com/buffalobillion/contacts/tree/01_Foundational_Steps
