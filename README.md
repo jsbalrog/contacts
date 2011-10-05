@@ -20,7 +20,7 @@ By default, the git clone command will only create the master branch locally. If
 
     git checkout -b 00_blank_slate origin/00_blank_slate
     git checkout -b 01_Foundational_Steps origin/01_Foundational_Steps
-    git checkout -b 01_Foundational_Steps origin/02_Adding_A_Panel
+    git checkout -b 02_Foundational_Steps origin/02_Adding_A_Panel
 
 You can review the list of local branches by running:
 

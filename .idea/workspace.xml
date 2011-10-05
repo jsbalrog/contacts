@@ -23,19 +23,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="README.md" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="README.md" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="66" selection-start="978" selection-end="978" vertical-scroll-proportion="0.39919356">
+            <state line="22" column="22" selection-start="934" selection-end="934" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ContactListPanel.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="ContactListPanel.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/views/ContactListPanel.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="27" selection-start="104" selection-end="104" vertical-scroll-proportion="0.0">
+            <state line="20" column="11" selection-start="705" selection-end="705" vertical-scroll-proportion="0.35820895">
               <folding />
             </state>
           </provider>
@@ -44,7 +44,7 @@
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="79" selection-start="607" selection-end="607" vertical-scroll-proportion="-11.333333">
+            <state line="17" column="79" selection-start="607" selection-end="607" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -87,10 +87,10 @@
         <option value="$PROJECT_DIR$/js/models/Contact.js" />
         <option value="$PROJECT_DIR$/js/controllers/ContactController.js" />
         <option value="$PROJECT_DIR$/js/app.js" />
-        <option value="$PROJECT_DIR$/js/views/ContactListPanel.js" />
         <option value="$PROJECT_DIR$/js/views/Viewport.js" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/js/views/ContactListPanel.js" />
       </list>
     </option>
   </component>
@@ -120,7 +120,7 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="Favorites" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -173,7 +173,7 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Favorites" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -181,8 +181,8 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="options.lastSelected" value="editing.templates" />
     <property name="DefaultHtmlFileTemplate" value="Html" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="RunManager">
     <configuration default="true" type="PythonUnitTestConfigurationType" factoryName="Python's unittest">
@@ -318,16 +318,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/views/ContactListPanel.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="27" selection-start="104" selection-end="104" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="79" selection-start="607" selection-end="607" vertical-scroll-proportion="-11.333333">
+        <state line="17" column="79" selection-start="607" selection-end="607" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -348,7 +341,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="66" selection-start="978" selection-end="978" vertical-scroll-proportion="0.39919356">
+        <state line="22" column="22" selection-start="934" selection-end="934" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/views/ContactListPanel.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="11" selection-start="705" selection-end="705" vertical-scroll-proportion="0.35820895">
           <folding />
         </state>
       </provider>
