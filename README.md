@@ -1,5 +1,7 @@
 This Git repository includes all of the source code used in creating the contacts Sencha Touch demo app.
 
+For a running demo, see <http://salty-journey-6480.herokuapp.com/>
+
 Each of the links below represents a snapshot of the code at a point in the presentation. You'll find instructions below on how to check out each snapshot from this git repository.
 
 * [00_blank_slate][00]
